@@ -2,39 +2,53 @@ body {
   text-align: center;
   margin-top: 30px;
   font-family: "Courier";
-  background-color: #9994ff;
-  color: #9994ff;
+  background-color: #9994ff; /* Purple background */
+  color: #ffffff; /* White text for better contrast */
 }
+
 #foodquestion {
   font-size: 50px;
   margin-bottom: 30px;
 }
+
 .food-item {
   display: inline-block;
   margin: 10px;
   vertical-align: top;
-  color: #9994ff;
+  color: #ffffff; /* White text for contrast */
 }
+
 .food-item img {
   height: 200px;
   width: 200px;
   border-radius: 50%;
-  border: 5px solid #9994ff;
+  border: 5px solid #ffffff; /* White border for better visibility */
   object-fit: cover;
-  padding: 10px;
+  padding: 5px; /* Reduced padding */
 }
+
 .food-item label {
   display: block;
+  font-size: 18px;
+  font-weight: bold;
 }
+
 .button {
   padding: 10px 20px;
   font-size: 18px;
   cursor: pointer;
   margin: 10px;
-  font-family: "courier";
+  font-family: "Courier";
   margin-bottom: 20px;
-  background-color: #9994ff;
-  color: #e67373;
+  background-color: #e67373; /* Soft red to contrast */
+  color: #ffffff; /* White text for readability */
   border-radius: 12px;
-  border: 2px solid #9994ff;
+  border: 2px solid #e67373;
+  transition: 0.3s;
+}
+
+.button:hover {
+  background-color: #ffe3e1; /* Light pink on hover */
+  color: #9994ff; /* Purple text */
+  border: 2px solid #ffe3e1;
 }
