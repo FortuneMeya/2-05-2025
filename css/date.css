@@ -2,11 +2,13 @@ body {
   text-align: center;
   margin-top: 30px;
   font-family: "Courier";
-  background-color: #fff5e4;
-  color: #ff9494;
+  background: linear-gradient(to top, #4b0082, #8a2be2); /* Purple gradient */
+  color: #ffffff; /* White text for contrast */
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
+
 h1 {
   font-size: 40px;
 }
@@ -16,7 +18,7 @@ form .header {
   display: flex;
   font-size: 20px;
   margin-bottom: 20px;
-  color: #ff9494;
+  color: #ffffff; /* White text for contrast */
 }
 
 .form-group {
@@ -24,6 +26,7 @@ form .header {
   flex-direction: column;
   justify-content: center;
   font-size: 25px;
+  color: #ffffff;
 }
 
 .button {
@@ -31,19 +34,18 @@ form .header {
   font-size: 15px;
   cursor: pointer;
   margin: 10px;
-  font-family: "courier";
+  font-family: "Courier";
   margin-bottom: 10px;
-  background-color: #ffe3e1;
-  color: #e67373;
+  background-color: #8a2be2; /* Purple button */
+  color: #ffffff; /* White text for contrast */
   border-radius: 12px;
-  border: 2px solid #ffe3e1;
+  border: 2px solid #ffffff; /* White border */
   transition: 0.3s;
 }
 
 .button:hover {
-  background-color: #ff9494;
-  color: #ffe3e1;
-  border: 2px solid #ff9494;
+  background-color: #6a0dad; /* Darker purple on hover */
+  border-color: #ffffff;
 }
 
 input[type="date"] {
@@ -51,10 +53,15 @@ input[type="date"] {
   font-size: 15px;
   cursor: pointer;
   margin: 10px;
-  font-family: "courier";
+  font-family: "Courier";
   margin-bottom: 10px;
-  background-color: #ffe3e1;
-  color: #e67373;
+  background-color: #8a2be2;
+  color: #ffffff;
   border-radius: 12px;
-  border: 2px solid #ffe3e1;
+  border: 2px solid #ffffff;
+}
+
+input[type="date"]::placeholder {
+  color: #ffffff;
+  opacity: 0.7;
 }
