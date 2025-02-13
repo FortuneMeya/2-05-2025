@@ -2,7 +2,7 @@ body {
   text-align: center;
   margin-top: 30px;
   font-family: "Courier";
-  background: linear-gradient(to top, #4b0082, #8a2be2); /* Purple gradient */
+  background: #C8A2C8; /* Updated to solid #C8A2C8 */
   color: #ffffff; /* White text for contrast */
   display: flex;
   flex-direction: column;
@@ -36,16 +36,16 @@ form .header {
   margin: 10px;
   font-family: "Courier";
   margin-bottom: 10px;
-  background-color: #8a2be2; /* Purple button */
+  background-color: #C8A2C8; /* Updated to #C8A2C8 */
   color: #ffffff; /* White text for contrast */
   border-radius: 12px;
-  border: 2px solid #ffffff; /* White border */
+  border: 2px solid #C8A2C8; /* Updated border color to #C8A2C8 */
   transition: 0.3s;
 }
 
 .button:hover {
-  background-color: #6a0dad; /* Darker purple on hover */
-  border-color: #ffffff;
+  background-color: #b28fb2; /* Slightly darker lavender on hover */
+  border-color: #C8A2C8; /* Updated border color to #C8A2C8 */
 }
 
 input[type="date"] {
@@ -55,10 +55,10 @@ input[type="date"] {
   margin: 10px;
   font-family: "Courier";
   margin-bottom: 10px;
-  background-color: #8a2be2;
-  color: #ffffff;
+  background-color: #C8A2C8; /* Updated to #C8A2C8 */
+  color: #ffffff; /* White text for contrast */
   border-radius: 12px;
-  border: 2px solid #ffffff;
+  border: 2px solid #C8A2C8; /* Updated border color to #C8A2C8 */
 }
 
 input[type="date"]::placeholder {
