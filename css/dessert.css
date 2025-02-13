@@ -1,8 +1,8 @@
 body {
   text-align: center;
   margin-top: 30px;
-  font-family: courier;
-  background: linear-gradient(to top, #4b0082, #8a2be2); /* Purple gradient */
+  font-family: "Courier";
+  background-color: #9994FF; /* Soft Purple Background */
   color: #ffffff; /* White text for contrast */
 }
 
@@ -37,17 +37,17 @@ body {
   font-size: 18px;
   cursor: pointer;
   margin: 10px;
-  font-family: "courier";
+  font-family: "Courier";
   margin-bottom: 20px;
-  background-color: #8a2be2; /* Purple button */
-  color: #ffffff; /* White text for contrast */
+  background-color: #ffffff; /* White button */
+  color: #9994FF; /* Matching Purple Text */
   border-radius: 12px;
   border: 2px solid #ffffff; /* White border */
   transition: 0.3s;
 }
 
 .button:hover {
-  background-color: #6a0dad; /* Slightly darker purple on hover */
+  background-color: #d3d3d3; /* Light gray on hover */
   border-color: #ffffff;
 }
 
