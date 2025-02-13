@@ -2,7 +2,7 @@ body {
   text-align: center;
   margin-top: 30px;
   font-family: "Courier";
-  background-color: #9994FF; /* Soft Purple Background */
+  background-color: #C8A2C8; /* Updated to #C8A2C8 */
   color: #ffffff; /* White text for contrast */
 }
 
@@ -23,7 +23,7 @@ body {
   height: 200px;
   width: 200px;
   border-radius: 50%;
-  border: 5px solid #ffffff; /* White border for contrast */
+  border: 5px solid #C8A2C8; /* Updated border color to #C8A2C8 */
   object-fit: cover;
   padding: 10px;
 }
@@ -40,14 +40,13 @@ body {
   font-family: "Courier";
   margin-bottom: 20px;
   background-color: #ffffff; /* White button */
-  color: #9994FF; /* Matching Purple Text */
+  color: #C8A2C8; /* Updated text color to #C8A2C8 */
   border-radius: 12px;
-  border: 2px solid #ffffff; /* White border */
+  border: 2px solid #C8A2C8; /* Updated border color to #C8A2C8 */
   transition: 0.3s;
 }
 
 .button:hover {
   background-color: #d3d3d3; /* Light gray on hover */
-  border-color: #ffffff;
+  border-color: #C8A2C8; /* Updated border color to #C8A2C8 */
 }
-
