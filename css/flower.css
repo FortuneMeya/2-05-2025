@@ -6,22 +6,22 @@
     box-sizing: border-box;
 }
 
-:root{
-    --color-bg: linear-gradient(to top,#010329,#000005);
-    --color-glass:linear-gradient(to left,#142544,#1a9092);
-    --color-water:linear-gradient(to left,#142544,#1b6d6e);
+:root {
+    --color-bg: linear-gradient(to top, #4b0082, #8a2be2); /* Deep purple gradient */
+    --color-glass: linear-gradient(to left, #142544, #1a9092);
+    --color-water: linear-gradient(to left, #142544, #1b6d6e);
 }
 
-body{
-    background-color: #FFF5E4;
+body {
+    background: var(--color-bg); /* Apply purple gradient */
     min-height: 100vh;
     display: flex;
-    flex-direction: column; /* Change the direction to column */
+    flex-direction: column;
     align-items: center;
-    justify-content: flex-start; /* Align items to the start of the container */
+    justify-content: flex-start;
     overflow: hidden;
-	color: #FF9494;
-	font-family: courier;
+    color: #ffffff; /* White text for contrast */
+    font-family: Courier, monospace;
 }
 
 #thankyou {
